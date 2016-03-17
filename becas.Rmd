@@ -27,7 +27,7 @@ becascsv$grOdontologicos  <- NULL
 becascsv <- becascsv[-1]
 ```
 
-#Obtengo la 
+#Obtengo la Cantidad de Personas con los diferentes Métodos de Ingreso
 ```{r eval=FALSE}
 opsu <- sum(becascsv$mIngreso==0) #OPSU
 convenioi <- sum(becascsv$mIngreso==1) #Convenios Interinstitucionales
