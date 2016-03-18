@@ -3,11 +3,13 @@ title: "hogar"
 author: "Vanessa Tovar"
 output: pdf_document
 ---
-
+# Comienzo Parte 2
+# Librerias
+```{r eval=FALSE}
 library("jsonlite")
 source(file.choose("google_api.R"))
+```
 
-# Comienzo Parte 2
 
 #Leo el csv
 ```{r eval=FALSE}
