@@ -71,9 +71,6 @@ hogarescsv$Precio.Mensual <- tolower(hogarescsv$Precio.Mensual)
 # Comienzo de Preprocesamiento de las Columnas
 
 #De Tipo de Inmueble
-#appartamento: 0.
-#monolocale: 1.
-#mini appartamento: 2.
 ```{r eval=FALSE}
 hogarescsv$Tipo.de.Inmueble <- gsub("mini appartamento",1, hogarescsv$Tipo.de.Inmueble)
 hogarescsv$Tipo.de.Inmueble <- gsub("mini\nappartamento",1, hogarescsv$Tipo.de.Inmueble)
